@@ -48,6 +48,9 @@ i{ /*CSS dos ícones*/
     margin-bottom: 2rem; /*Afasta com um espaço a seção abaixo*/
     position: relative; /*Para permitir que os elementos internos se sobreponham*/
 }
+#header2{
+    
+}
 
 #inner-header{
     display:flex; /*Para permitir colocar a marca na esquerda e o menu na direita*/
@@ -59,7 +62,19 @@ i{ /*CSS dos ícones*/
     background-color: var(--main-color);
     padding: 1rem;
 }
-
+#brand2{ /*Marca*/
+    color: red;
+    margin-left: 13rem;
+    margin-top: 5rem;
+    margin-bottom: -8rem;
+}
+#brand3{ /*Marca*/
+    background-color: var(--main-color);
+    padding: 1rem;
+    color: white;
+    text-align: right;
+    margin-top: 30px;
+}
 #navbar{ /*Menu*/
     display : flex;
     gap: 2rem; /*Lacuna - distancia entre os itens de menu*/
@@ -88,6 +103,24 @@ i{ /*CSS dos ícones*/
     position: absolute;
     transition: 0.6s;
 }
+.banner2{
+    color: black;
+    max-width: 60%;
+    padding: 10rem;
+    position: absolute;
+    margin-top: 2rem;
+    
+}
+.banner3{
+    min-height: 80vh;
+    background-image: url(../img/employees_banner.jpg);
+    background-size: cover; /*Tamanho total disponível para a imagem*/
+    background-position: right;
+    color: var(--primary-text-color);
+    margin-left: 10rem;
+    margin-bottom: 2rem; /*Afasta com um espaço a seção abaixo*/
+    position: relative;
+}
 
 .banner h2{
     font-size: 4rem;
@@ -100,6 +133,14 @@ i{ /*CSS dos ícones*/
     font-size: 1.5rem;
     position: relative;
     z-index: 2;
+}
+.banner2 p{
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2;
+    text-align: right;
+    font-weight: bold;
+
 }
 
 .square{
